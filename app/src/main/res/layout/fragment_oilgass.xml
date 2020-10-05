@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="oilGassFragVm"
+            type="com.e.myappliedresource.viewModel.OilGassPriceVM"/>
+    </data>
+    <RelativeLayout
+        android:id="@+id/relService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="@color/lightBlue"
+       >
+
+        <TextView
+            android:id="@+id/tvServicesTitle"
+            style="@style/StyleText"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/gothicb"
+            android:text="@string/articles"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="@dimen/_12sdp" />
+        <RelativeLayout
+            android:id="@+id/mainLay"
+            android:layout_below="@id/tvServicesTitle"
+            android:layout_width="match_parent"
+            android:background="@drawable/toolbar_bg"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="WTI Crude Oil cl"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/tvProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvName"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="center"
+                    android:text="$ 59.02"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:textColor="@color/white"
+                    android:background="@color/red"
+                    android:padding="@dimen/_3sdp"
+                    android:textSize="@dimen/_10sdp" />
+                <LinearLayout
+                    android:id="@+id/lin1"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_below="@id/tvProductPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="Open: "
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="68.31"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="Close: "
+
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="67.31"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_below="@id/lin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_5sdp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="56.45 "
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothicb"
+                        android:text="68.31"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+                    >
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>
+

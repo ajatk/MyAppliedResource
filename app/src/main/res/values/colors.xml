@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e5310e</color>
+    <color name="colorPrimaryDark">#8ad3f6</color>
+    <color name="colorAccent">#e5310e</color>
+    <color name="red">#e5310e</color>
+    <color name="transluent">#00E5310E</color>
+    <color name="orange_notification">#ffae00</color>
+    <color name="lightBlue">#8ad3f6</color>
+    <color name="proceed_lightBlue">#4fc1f0</color>
+    <color name="fb_button_color">#1777f2</color>
+    <color name="insta_button_color">#3f729b</color>
+    <color name="gray">#6f6f6f</color>
+    <color name="gray_light_list_size">#DF837878</color>
+    <color name="gray_light_setting_line">#2A837878</color>
+    <color name="gray_light_bg">#0D918282</color>
+    <color name="gray_chat_bg">#E0E0E0</color>
+    <color name="gray_chat_bg2">#F8F7F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="colorPrimaryText">#000</color>
+    <color name="colorSecondaryText">#000</color>
+
+
+    <color name="colorPrimaryPix">#4fc1f0</color>
+    <color name="colorPrimaryLightPix">#8ad3f6</color>
+
+</resources>
